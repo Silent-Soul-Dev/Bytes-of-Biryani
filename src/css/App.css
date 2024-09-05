@@ -1,0 +1,136 @@
+/* src/css/app.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1, h2 {
+  color: #0d47a1;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+button {
+  background-color: #0d47a1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cart {
+  margin-top: 20px;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-tracker ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order-tracker li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.franchise-store, .yard-interface, .manufacturer-interface {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.franchise-store h1, .yard-interface h1, .manufacturer-interface h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li button {
+  background-color: #1565c0;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+ul li button:hover {
+  background-color: #1976d2;
+}
+
+.order-status {
+  font-weight: bold;
+}
+
+.app {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
